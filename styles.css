@@ -79,9 +79,14 @@ p {
 
 /* Title Section */
 
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+  }
+
 #title .container-fluid {
     padding: 3% 15% 7%;
-    text-align: left;
 }
 
 
@@ -92,18 +97,6 @@ p {
     transform: rotate(25deg);
     position: absolute;
     right: 30%;
-}
-
-@media (max-width: 1028px) {
-
-    #title {
-        text-align: center;
-    }
-
-    .title-image {
-        position: static;
-        transform: rotate(0);
-    }
 }
 
 
@@ -185,6 +178,18 @@ p {
 
 .social-icon {
     margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
 }
 
 
